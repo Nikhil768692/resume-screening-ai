@@ -1,3 +1,5 @@
+import nltk
+nltk.download('stopwords')
 import streamlit as st
 from utils import extract_text, rank_resumes
 import os
